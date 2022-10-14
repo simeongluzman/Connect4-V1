@@ -1,13 +1,180 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    font: 18px "Marker Felt", Futura, sans-serif;
+    margin: 20px;
+    align-items: center;
+    background-color: rgb(201, 215, 252);
+    
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+    align-items: center;
+    list-style: none
+    
+  }
+  
+  .backBoard {
+    border: 5px solid rgb(104, 104, 104);
+    background-color: rgb(3, 0, 43);
+    border-radius: 10px;
+    height: 382px;
+    width: 440px;
+    
+    
+    
+    
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+  }
+  .board-row {
+    
+    clear:both;
+    content: "";
+    display:table;
+    margin-left: 4px;
+    
+    
+    
+  }
+  
+  .options {
+
+    background: rgb(112, 112, 112);
+    border-radius: 8px;
+    border: 2px solid rgb(0, 0, 0);
+    float: left;
+    font: 17px "Marker Felt";
+    
+    font-weight: bold;
+    
+    height: 65px;
+    margin-right: 2px;
+    
+    margin-top: 2px;
+    padding: 0;
+    text-align: center;
+    width: 80px;
+
+
+
+
+  }
+  .status {
+    margin-bottom: 10px;
+    text-align: center;
+    
+  }
+
+  .title {
+    
+    text-align: center;
+    
+  }
+
+  
+  .square {
+    background: rgb(116, 147, 231);
+    border-radius: 95%;
+    border: 2px solid rgb(0, 0, 0);
+    float: left;
+    
+    
+    line-height: 34px;
+    height: 60px;
+    margin-right: 2px;
+    
+    margin-top: 2px;
+    padding: 0;
+    text-align: center;
+    width: 60px;
+    
+    
+  }
+
+  
+
+  .squarered{
+    background: rgb(214, 22, 22);
+    border-radius: 95%;
+    border: 2px solid rgb(0, 0, 0);
+    float: left;
+    
+    line-height: 34px;
+    height: 60px;
+    margin-right: 2px;
+    
+    margin-top: 2px;
+    padding: 0;
+    text-align: center;
+    width: 60px;
+
+  }
+
+  .squareyellow{
+    background: rgb(248, 244, 6);
+    border-radius: 95%;
+    border: 2px solid rgb(0, 0, 0);
+    float: left;
+    
+    line-height: 34px;
+    height: 60px;
+    margin-right: 2px;
+    
+    margin-top: 2px;
+    padding: 0;
+    text-align: center;
+    width: 60px;
+
+  }
+
+  .winningrow{
+    background: rgb(86, 216, 53);
+    border-radius: 95%;
+    border: 2px solid rgb(0, 0, 0);
+    float: left;
+    
+    line-height: 34px;
+    height: 60px;
+    margin-right: 2px;
+    
+    margin-top: 2px;
+    padding: 0;
+    text-align: center;
+    width: 60px;
+
+  }
+  
+  .hover-effect:hover {
+    background: rgb(67, 86, 173);
+
+  }
+  
+  
+
+  .menu {
+    display:flex;
+    margin-top: 17px;
+
+    gap: 16px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .game {
+    display:flex;
+    margin-top: 20px;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .game-info {
+    margin-top: 20px;
+    align-content: center;
+    font-size: 23px;
+    font-weight: bold;
+   
+  }
+  
