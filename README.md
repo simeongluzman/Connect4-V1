@@ -1,3 +1,9 @@
+# Connect 4 Two Player Game
+
+Please find the first version of my Connect4 game at the link below
+https://simeongluzman.github.io/Connect4-V1/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
